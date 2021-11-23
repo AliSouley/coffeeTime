@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee shop</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Css-file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+
+<body>
+<!-- header Start -->
+
+<header class="header">
+    
+    <a href="#" class="logo"><i class="fas fa-mug-hot"></i>CoffeeTime</a>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blog</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars"id="menu-button"></div>
+        <div class="fas fa-search"id="search-button"></div>
+        <div class="fas fa-shopping-cart"id="cart-button"></div>
+        <div class="fas fa-user"id="login-button"></div>
+
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="SearchBox" placeholder="Type here to search ....">
+        <label for="SearchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-orders">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/my_cart1.png" alt="">
+            <div class="content">
+                <h3>selezione</h3>
+                <span class="price">$11.78/-</span>
+                <span class="qty">qty : 4</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/my_cart2.png" alt="">
+            <div class="content">
+                <h3>Arabiana</h3>
+                <span class="price">$15.58/-</span>
+                <span class="qty">qty : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/my_cart3.png" alt="">
+            <div class="content">
+                <h3>nescafeAlegria</h3>
+                <span class="price">$5.18/-</span>
+                <span class="qty">qty : 3</span>
+            </div>
+        </div>
+        <div class="total">total : $93.82/-</div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="form-login">
+        <h3>login now</h3>
+        <input type="email" placeholder="Email" class="box">
+        <input type="password" placeholder="Password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create new account</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+
+</header>
+
+<!-- header End -->
+
+
+<!-- home Start -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Life is too short for bad <span>coffee</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae, veritatis voluptatum ex sapiente necessitatibus?</p>
+        <a href="#" class="btn">shop right now</a>
+
+
+    </div>
+
+</section>
+<!-- home End -->
+
+<!-- features Start -->
+<section class="features" id="features">
+    <h1 class="heading">our <span>features</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/my_feature2.png" alt="">
+            <h3>high quality fresh coffee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, deleniti!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="images/My_feature1.png" alt="">
+            <h3>free delivery</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, aperiam!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="images/my_feature3.png" alt="">
+            <h3>easy payments</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptas!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+
+<!-- features End -->
+
+<!-- products Start -->
+<section class="products" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/my_products1.png" alt="">
+                <h3>pure vanilla extract</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products2.png" alt="">
+                <h3>arabia coffee</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products3.png" alt="">
+                <h3>roster's blend</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products4.png" alt="">
+                <h3>creamery blend vanilla</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/my_products5.png" alt="">
+                <h3>coffe planet</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products6.png" alt="">
+                <h3>nilsen massey</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products7.png" alt="">
+                <h3>golith choco</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/my_products8.png" alt="">
+                <h3>adore coffee rosters</h3>
+                <div class="price">$8.6/- - 13.54/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- products End -->
+
+
+<!-- categories Start -->
+<section class="categories" id="categories">
+    <h1 class="heading">products <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/cat-1Arabica.png" alt="">
+            <h3>Arabica Coffee Beans</h3>
+            <p>upto 30% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-2Robusta.png" alt="">
+            <h3>Robusta Coffee Beans</h3>
+            <p>upto 48% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-3Liberica.png" alt="">
+            <h3>Liberica Coffee Beans</h3>
+            <p>upto 25% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-4Excelsa.png" alt="">
+            <h3>Excelsa Coffee Beans</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+
+<!-- categories End -->
+
+<!-- review Start -->
+<section class="review" id="review">
+    <h1 class="heading">cutomer's <span>reviwe</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/reviwe1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores distinctio ratione, aliquid voluptatum tempora praesentium quis dolor officia deserunt sint!</p>
+                <h3>jamal ahmed</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+            </div>
+                <div class="swiper-slide box">
+                <img src="images/reviwe2.jpg" alt="">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit unde nihil cum, voluptatibus doloribus! Voluptates distinctio adipisci repudiandae optio!</p>
+                <h3>khalid hassan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+                <div class="swiper-slide box">
+                <img src="images/reviwe3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur velit ea doloremque enim voluptatem perspiciatis quasi saepe placeat, labore corporis</p>
+                <h3>hamza sdiri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                </div>
+
+                <div class="swiper-slide box">
+                <img src="images/reviwe4.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, at omnis. Nulla tenetur explicabo aspernatur, itaque iste distinctio quod ipsum!</p>
+                <h3>manal malik</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- reviwe End -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/my_blog1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 20 jan, 2021 </a>
+                </div>
+                <h3>How To Make Coffee While Camping (10 Different Methods)</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, reprehenderit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/my_blog2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 15 feb, 2021 </a>
+                </div>
+                <h3>Best Popcorn Poppers For Roasting Coffee Beans</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, optio.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/my_blog3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 30 sep, 2021 </a>
+                </div>
+                <h3>Is Roasting Your Own Coffee Beans Worth the Time & Effort?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, veritatis?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+                <h3> CoffeeTime <i class="fas fa-mug-hot"></i> </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, doloribus.</p>
+                <div class="socials">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                </div>
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +966 545286456 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +966 586467897 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> CoffeeTime@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> medina, saudi arabia - 405686 </a>
+        </div>
+
+        <div class="box">
+            <h3> quick-links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>Get the best coffee deals, expert brewing guides and coverage of the latest innovations and products.</p>
+            <input type="email" placeholder="email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/payTools.png" class="pay-img" alt="">
+        </div>
+
+</div>
+
+<div class="credits">
+    created by <span>Ali Soleyman</span> | all rights reserved</div>
+</section>
+
+<!-- footer Start -->
+
+
+
+
+<!-- footer End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- swiper -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- java-script file -->
+<script src="javaScript/script.js"></script>
+</body>
+</html>
